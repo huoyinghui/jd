@@ -21,6 +21,14 @@
 * /api/logout
 
 
+#### 2.1 登录布局(login form)
+* el-from
+* el-from-item
+* el-input
+* el-button
+* 字体图标(用户名的图标/密码图标)
+
+
 * session/cookie: 不跨域
 * token: 跨域
 
