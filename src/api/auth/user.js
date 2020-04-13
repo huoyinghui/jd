@@ -11,7 +11,10 @@ export function userInfo(id, token) {
 export function loginName(userName, pwd) {
     return axios({
         url: "/api/user/login/",
-        data: { userName, pwd }
+        data: {
+            'username': userName,
+            'password': pwd,
+        }
     });
 }
 
