@@ -25,8 +25,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ## fix bug
-### 01 
-[scss loader](https://blog.csdn.net/qq_24058693/article/details/80056557)
+### 01  loader sass err
+* [scss loader](https://blog.csdn.net/qq_24058693/article/details/80056557)
 
 ```shell
 npm install sass-loader -D

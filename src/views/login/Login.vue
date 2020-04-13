@@ -95,15 +95,16 @@ export default {
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {
-            alert('submit!');
             var data = {
               'username': this.ruleForm.username,
               'password': this.ruleForm.pass,
             }
-            console.log(data)
-            this.loading = true;
-            this.$store.dispatch('loginName', data)
-                .then()
+            console.log(data);
+            this.$axios({
+              method: "post",
+              url: "https://budao.yunjinginc.com/api/user/login/",
+              data: data,
+            }).then(response => (this.info = response))
           } else {
             console.log('error submit!!');
             return false;
