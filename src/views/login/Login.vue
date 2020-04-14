@@ -1,6 +1,7 @@
 <template>
     <div class="login_container">
         登录组件
+        <icon-svg icon-class="password" />
     </div>
 </template>
 
@@ -9,5 +10,4 @@
 </script>
 
 <style lang="less" scoped>
-.
 </style>

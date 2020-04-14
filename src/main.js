@@ -8,7 +8,8 @@ import IconSvg from './components/IconSvg.vue'
 import axios from 'axios';
 Vue.prototype.$axios = axios; //全局注册，使用方法为:this.$axios
 
-Vue.component("icon-svg", IconSvg);
+//全局注册icon-svg
+Vue.component('icon-svg', IconSvg)
 
 Vue.config.productionTip = false
 
