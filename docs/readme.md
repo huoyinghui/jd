@@ -15,6 +15,9 @@
 * 配置vue router
 * 配置Element-UI 组件库
 * 配置axio
+* 安装开发依赖'less-loader'
+* 安装开发依赖'less'
+* 重启server
 
 ### 2.用户模块
 * /api/login(username, password -> token)
